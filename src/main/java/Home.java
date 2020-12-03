@@ -2,11 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-enum Season {
-    WINTER, SPRING, SUMMER, AUTUMN
-}
+class Home {
 
-public class Main {
+    enum Season {
+        WINTER, SPRING, SUMMER, AUTUMN
+    }
 
     public static void main(String[] args) throws IOException {
 	// write your code here
